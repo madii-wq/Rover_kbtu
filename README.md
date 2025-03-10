@@ -17,4 +17,3 @@
     <li>Drilling system = drill + controller</li>
     <li>Manipulator = servos + controller</li>
 </ol>
-
