@@ -3,18 +3,33 @@
 <h2>Requirements</h2>
 <h3>Functional requirements</h3>
 <ol>
-    <li>Drive motor using API endpoints</li>
+    <li>Drive motor using API endpoints of Raspberry PI</li>
     <li>API endpoints must regulate speed, direction, angular of motor</li>
     <li>Communicate with motor controller (optional)</li>
 </ol>
 <h3>Non-functional requirements</h3>
+<p>Non-functional requirements are constraints on services of system. We use different type of physical modeling to choose components for our budgets. Here some resources to modeling our rover.</p>
+<p>
+    Also, we need use some physical metrics of rover:
+    <ol>
+        <li>Max weight of rover < 75kg</li>
+        <li>Radius of wheel 25cm</li>
+    </ol>
+</p>
+<p>
+
+</p>
 <ol>
-    <li>Motor controller commercial ready solution</li>
-    <li>Servos controller commercial ready solution</li>
-    <li>Motor controller costs < 100$</li>
-    <li>Motor controller support PWM, data communication (optional)</li>
-    <li>Servos also support PWM and data communication (optional)</li>
-    <li><a href="https://www.amazon.com/Cytron-30A-Motor-Driver-MD30C/dp/B07L6HGFWY">Link to product</a></li>
+    <li><a href="https://www.cytron.io/tutorial/choosing-dc-motor">Choose of DC motors</a></li>
+    <li><a href="https://web.archive.org/web/20230108014816/https://community.robotshop.com/blog/show/drive-motor-sizing-tool">Calculation of torque</a></li>
+    <li><a href="https://racheldebarros.com/arduino-projects/guide-to-choosing-the-best-dc-motor-drivers-for-arduino/">Choose of DC controller</a></li>
+</ol>
+
+<ol>
+    <li>Motor controller and servos commercial ready solution</li>
+    <li>Motor controller and servos support PWM, data communication (optional)</li>
+    <li><a href="https://www.amazon.com/Cytron-30A-Motor-Driver-MD30C/dp/B07L6HGFWY">Link to motor controller</a></li>
+    <li><a href="https://www.amazon.com/37GB550-gear-motor-torque-reduction/dp/B0DJ53DMZX?th=1">Link to motor</a></li>
 </ol>
 
 <h2>Architecture design</h2>
