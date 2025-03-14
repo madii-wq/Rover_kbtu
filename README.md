@@ -17,3 +17,20 @@
     <li>Drilling system = drill + controller</li>
     <li>Manipulator = servos + controller</li>
 </ol>
+
+```mermaid
+    flowchart TD
+        subgraph Computer[Computer System]
+            Raspberry[Raspberry PI]
+        end
+        Vision[Vision System]
+        Wheel[Wheel]
+        Manipulator[Manipulator]
+        Drilling[Drilling System]
+        Laboratory[Laboratory]
+        Vision-->Computer
+        Wheel-->Computer
+        Manipulator-->Computer
+        Drilling-->Computer
+        Laboratory-->Computer
+```
